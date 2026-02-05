@@ -36,6 +36,21 @@ button {
     display: inline-block;
 }
 
+.btn {
+    display: block;
+    text-transform: uppercase;
+    width: 100%;
+    max-width: 184px;
+    height: 46px;
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 300;
+    color: #FFFFFF;
+    padding: 15px 47px;
+    background-color: #00AFDB;
+
+}
+
 .container {
     width: 100%;
     max-width: 1092px;
@@ -83,7 +98,48 @@ button {
     height: 744px;
     background: url(../images/header-bg.jpg) no-repeat center;
     background-size: cover;
+    padding-top: 223px;
 }
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 16px;
+}
+
+.intro__title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.4;
+    color: #FFFFFF;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+    left: 10px;
+    margin-bottom: 12px;
+}
+
+.intro__subtitle {
+    max-width: 500px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    margin-bottom: 28px;
+    text-align: center;
+    left: 7px;
+}
+
+
+
+.intro__media {
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+    gap: 30px;
+}
+
+
 
 
 
@@ -139,8 +195,8 @@ button {
 }
 
 .footer__list {
-    display: flex ;
-    justify-content: space-between ;
+    display: flex;
+    justify-content: space-between;
     padding: 25px 0;
     max-width: 580px;
 }
@@ -156,6 +212,7 @@ button {
     line-height: 1.4;
     color: #818181;
 }
+
 .footer__nav-intersector {
-    color: #4E4E4E ;
+    color: #4E4E4E;
 }
