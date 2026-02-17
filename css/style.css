@@ -139,6 +139,39 @@ button {
     gap: 30px;
 }
 
+.business {
+    padding: 120px 0 140px;
+}
+
+
+.business__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.business__info {
+    margin-bottom: 6px;
+}
+
+.business__title {
+    max-width: 367px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #373737;
+}
+
+.business__text {
+    max-width: 407px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #4E4E4E;
+    margin-bottom: 30px;
+}
+.business__img {
+
+}
 
 
 
