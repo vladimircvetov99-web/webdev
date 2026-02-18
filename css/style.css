@@ -23,8 +23,30 @@ a {
     text-decoration: none;
 }
 
+p {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #4E4E4E;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+
 ul {
     list-style: none;
+}
+
+section {
+    padding: 120px 0 140px;
 }
 
 button {
@@ -140,7 +162,7 @@ button {
 }
 
 .business {
-    padding: 120px 0 140px;
+    padding-bottom: 135px;
 }
 
 
@@ -157,19 +179,105 @@ button {
 .business__title {
     max-width: 367px;
     margin-bottom: 20px;
-    font-size: 25px;
-    font-weight: 700;
-    color: #373737;
 }
 
 .business__text {
     max-width: 407px;
-    font-size: 14px;
-    line-height: 1.4;
-    color: #4E4E4E;
     margin-bottom: 30px;
 }
 
+/* communities */
+
+.communities {
+    background-color: #F5F6F7;
+}
+
+.communities_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.communities__info {
+    max-width: 298px;
+    margin: 0 0 3px 2px;
+
+    text-align: center;
+}
+
+.communities__info__avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 20px;
+}
+
+.communities__info__avatar img {
+    display: block;
+    width: 100%;
+    max-width: 45px;
+}
+
+.communities__info__title {
+    margin-bottom: 10px;
+}
+
+.communities__slider {
+    max-width: 625px;
+
+    position: relative;
+}
+
+.communities__slider__arrows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    right: 0;
+    bottom: calc(100% + 17px);
+
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.communities__slider__arrow {
+    cursor: pointer;
+}
+
+.communities__slider__number {
+    margin: 0 12px;
+}
+
+.communities__slider__container {
+    overflow: scroll;
+    width: calc(632px + (100vw - 1092px) / 2);
+}
+
+.communities__slider__container::-webkit-scrollbar {
+    display: none;
+}
+
+.communities__slider__inner {
+    display: flex;
+    width: 2185px;
+}
+
+.communities__slider__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 407px;
+    margin-right: 30px;
+}
+
+.communities__slider__item img {
+    display: block;
+    max-width: 100%;
+}
+
+/* /communities */
 
 
 
