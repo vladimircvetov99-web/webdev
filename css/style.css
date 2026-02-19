@@ -94,12 +94,19 @@ button {
     transition: .3s;
 }
 
+/* Header start */
+
 .header {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 3;
+}
+
+.header_active {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .menu__list {
@@ -115,6 +122,11 @@ button {
     justify-content: center;
 }
 
+/* Header end */
+
+
+
+/* Intro start */
 
 .main {
     height: 744px;
@@ -161,6 +173,10 @@ button {
     gap: 30px;
 }
 
+/* Intro end */
+
+/* Business start */
+
 .business {
     padding-bottom: 135px;
 }
@@ -186,7 +202,10 @@ button {
     margin-bottom: 30px;
 }
 
-/* communities */
+/* Business end */
+
+
+/* Communities start */
 
 .communities {
     background-color: #F5F6F7;
@@ -277,7 +296,57 @@ button {
     max-width: 100%;
 }
 
-/* /communities */
+/* /Communities end */
+
+/* /Feedback start */
+
+.request {
+    padding: 212px 0 277px;
+    background-image: url(../images/request-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.request__inner {
+    align-items: center;
+    text-align: center;
+    word-spacing: 4px;
+}
+
+.request__title {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.request__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.request__form-imput {
+    display: inline-block;
+    padding: 13px;
+    border: none;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    width: 100%;
+    max-width: 340px;
+    color: #373737;
+}
+
+.request__form-btn {
+    background: #00AFDB;
+    width: 100%;
+    max-width: 66px;
+    height: 46px;
+}
+
 
 
 
