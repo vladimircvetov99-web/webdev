@@ -32,6 +32,7 @@ p {
 h2 {
     font-size: 25px;
     font-weight: 700;
+    letter-spacing: 0.4px;
 }
 
 h3 {
@@ -205,6 +206,8 @@ button {
 /* Business end */
 
 
+
+
 /* Communities start */
 
 .communities {
@@ -298,13 +301,13 @@ button {
 
 /* /Communities end */
 
-/* /Feedback start */
+/* /Request start */
 
 .request {
-    padding: 212px 0 277px;
+    padding: 212px 0 276px;
     background-image: url(../images/request-bg.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center center;
 }
 
@@ -345,6 +348,70 @@ button {
     width: 100%;
     max-width: 66px;
     height: 46px;
+}
+
+/* /Request end */
+
+.download {
+    padding: 117px 0 179px;
+}
+
+
+.download__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.download__title {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+
+}
+
+.download__text {
+    text-align: center;
+    margin-bottom: 31px;
+    max-width: 483px;
+}
+
+.download__btn {
+    display: flex;
+    gap: 34px;
+}
+
+.app__btn {
+     display: flex;
+    align-items: center;
+    text-decoration: none;
+     background-color: #00AFDB;
+     font-weight: 600;
+     color: #FFFFFF;
+
+
+}
+
+.app__btn-text {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-transform: uppercase;
+    min-width: 128px;
+}
+
+.app__btn-img {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    min-width: 60px;
+    height: 50px;
+    background-color: #009CC2;
+}
+
+.app__btn-img img {
+    display: block;
+    width: 16px;
 }
 
 
@@ -393,7 +460,7 @@ button {
     width: 100%;
     background-color: #000;
     color: #FFFFFF;
-    padding: 80px 0;
+    padding: 49px 0 80px;
 }
 
 .footer__nav {
