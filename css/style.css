@@ -491,3 +491,99 @@ button {
 .footer__nav-intersector {
     color: #4E4E4E;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .intro__title {
+        font-size: 52px;
+    }
+    .business {
+        padding: 80px 0 100px;
+    }
+    .business__info {
+        max-width: 300px;
+    }
+    section {
+        padding: 80px 0 140px;
+    }
+}
+
+@media (max-width: 425px) {
+        .menu__list li:nth-child(1) {
+            order: 1;
+        }
+          .menu__list li:nth-child(2) {
+            order: 2;
+        }
+          .menu__list li:nth-child(3) {
+            order: 5;
+        }
+          .menu__list li:nth-child(4) {
+            order: 3;
+        }
+          .menu__list li:nth-child(5) {
+            order: 4;
+        }
+
+        .intro__title {
+        font-size: 49px
+        }
+        .business__inner {
+            flex-wrap: wrap;
+        }
+        .intro__title {
+            text-align: center;
+        }
+        .business__info {
+            margin-bottom: 20px;
+        }
+        .intro__media {
+            margin-top: 130px;
+        }
+        .communities_inner {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .communities__info {
+            margin-bottom: 60px;
+        }
+        .communities__slider__inner {
+            width: 1650px;
+        }
+        .business__img {
+            margin-bottom: 30px;
+        }
+        .download__btn {
+            gap: 20px;
+        }
+        .footer__nav {
+            flex-wrap: wrap;
+        }
+        }
